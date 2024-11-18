@@ -1,0 +1,6 @@
+<?php
+$koneksi= mysqli_connect("localhost","root","","tugas_sekolah");
+if($koneksi){
+    echo "berhasil tersambung";
+}
+mysqli_query($koneksi, "insert into sis values('3','mor','12')");
